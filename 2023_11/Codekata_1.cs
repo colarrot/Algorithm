@@ -1,19 +1,11 @@
-﻿public class Solution
+﻿using System;
+
+public class Solution
 {
-    public string solution(int num)
+    public int solution(int num1, int num2)
     {
-        string answer = "";
-
-        if (num % 2 == 1)  // 2로나누었을때 나머지가 1 = 홀수
-        {
-            answer = "Odd";
-        }
-
-        else if (num % 2 == 0)  // 2로나누었을때 나머지가 0 = 홀수
-        {
-            answer = "Even";
-        }
+        int answer = num1 - num2;       
         return answer;
     }
-
+    
 }
